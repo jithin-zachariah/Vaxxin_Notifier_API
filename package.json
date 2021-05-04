@@ -1,0 +1,21 @@
+{
+  "name": "vaxxin_notifier_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r dotenv/config ./server.js dotenv_config_path=.env",
+    "watch": "nodemon -r dotenv/config ./server.js dotenv_config_path=.env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-jithin-zachariah:jithin-zachariah/Vaxxin_Notifier_API.git"
+  },
+  "author": "Jithin Zachariah",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  }
+}
