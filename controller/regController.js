@@ -2,6 +2,8 @@ const userHelper = require("../database/helper/userHelper");
 
 const registerUser = async (req, res) => {
   const { userData } = req.body;
+
+  console.log(userData);
   if (!userData) {
     return res.status(400).send("Missing parameters");
   }
